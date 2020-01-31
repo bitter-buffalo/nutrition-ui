@@ -1,0 +1,195 @@
+/* Typography */
+@font-face {
+    font-family: "Muli";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Muli Regular"), local("Muli-Regular"),
+      url("./assets/fonts/muli/Muli-Regular.woff2") format("woff2"),
+      url("./assets/fonts/muli/Muli-Regular.woff") format("woff"),
+      url("./assets/fonts/muli/Muli-Regular.ttf") format("truetype");
+  }
+  
+@font-face {
+    font-family: "Muli";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Muli Bold"), local("Muli-Bold"),
+      url("./assets/fonts/muli/Muli-Bold.woff2") format("woff2"),
+      url("./assets/fonts/muli/Muli-Bold.woff") format("woff"),
+      url("./assets/fonts/muli/Muli-Bold.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: "Muli";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local("Muli Black"), local("Muli-Black"),
+      url("./assets/fonts/muli/Muli-Black.woff2") format("woff2"),
+      url("./assets/fonts/muli/Muli-Black.woff") format("woff"),
+      url("./assets/fonts/muli/Muli-Black.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "YesevaOne";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Yeseva One"), local("YesevaOne-Regular"),
+      url("./assets/fonts/yeseva-one/YesevaOne-Regular.woff2") format("woff2"),
+      url("./assets/fonts/yeseva-one/YesevaOne-Regular.woff") format("woff"),
+      url("./assets/fonts/yeseva-one/YesevaOne-Regular.ttf") format("truetype");
+  }
+
+/* Variables */
+:root {
+  --alaram-red: #EC110D;
+
+  --charcoal: #283342;
+}
+
+/* Header/Menu */
+header{
+  display: flex;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  color: var(--charcoal);
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  /* padding-left: 44%;
+  padding-right: 36.4%;
+  margin-bottom: 116px; */
+}
+
+.brand{
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 24px;
+  /* padding-left: 128px;
+  margin-bottom: 0px;
+  padding-top: 52px; */
+}
+
+
+/* Article Body */
+body{
+  margin:0;
+  position: relative;
+  font-family: "Muli", sans-serif;
+  background-color: #E5E5E5;
+}
+
+main{
+  display:flex;
+  align-content: flex-start;
+}
+
+.article{
+  display: flex;
+  margin-left: 128px;
+}
+
+h1{
+  font-family: "YesevaOne";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 96px;
+  letter-spacing: -2px;
+  color: var(--charcoal);
+  margin: 0;
+}
+
+@media (max-width:) {
+  h1 {
+    
+  }
+}
+
+h2{
+
+}
+
+@media (max-width:) {
+  h2 {
+    
+  }
+}
+
+
+/* Article Footer */
+footer{
+
+}
+
+.nutrition-info{
+
+}
+
+.share{
+
+}
+
+
+
+/* Aside */
+.card-red{
+  border-radius: 8px;
+  background-color: var(--alaram-red);
+  margin-left: 128px;  
+  margin-bottom: 32px;
+  width: 360px;
+  height: 200px;
+}
+
+.card-text-red{
+  font-family: "Muli", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-left: 32px;
+  padding-right: 112px;
+  padding-top: 48px;
+  margin: 0;
+}
+
+.card-charcoal{
+  border-radius: 8px;
+  background-color: var(--charcoal);
+  margin-left: 128px;  
+  margin-bottom: 64px;
+  position: absolute;
+  width: 360px;
+  height: 200px;
+}
+
+.card-text-charcoal{
+  font-family: "Muli", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-left: 32px;
+  padding-right: 112px;
+  padding-top: 65px;
+  margin: 0;
+}
+
+.article-selector{
+
+}
